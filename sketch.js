@@ -73,7 +73,7 @@ function setup() {
 
 function draw() {
   
-  background("white");
+  background("black");
   //displaying score
   text("Score: "+ score, windowWidth - 75,50);
 
