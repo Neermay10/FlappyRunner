@@ -222,7 +222,7 @@ function spawnClouds() {
 }
 
 function speedChange(){
-  obstaclesGroup.setVeloctiyXEach = obstaclesGroup.setVeloctiyXEach + 1
-  cloudsGroup.setVeloctiyXEach = cloudsGroup.setVeloctiyXEach + 1
-  ground.velocityX = ground.velocityX + 1
+  obstaclesGroup.setVeloctiyXEach = obstaclesGroup.setVeloctiyXEach - 1
+  cloudsGroup.setVeloctiyXEach = cloudsGroup.setVeloctiyXEach - 1
+  ground.velocityX = ground.velocityX - 1
 }
