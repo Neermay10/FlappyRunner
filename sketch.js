@@ -75,6 +75,7 @@ function draw() {
   
   background("black");
   //displaying score
+  fill("white");
   text("Score: "+ score, windowWidth - 75,50);
 
   if(localStorage["HighestScore"]<score){
